@@ -10,7 +10,7 @@
 </head>
 <body class="lexend-font">
     <header>
-        <nav class="container mx-auto">
+        <nav class="container mx-auto fixed bg-slate-50 z-10">
             <div class="navbar bg-base-100">
                 <div class="navbar-start">
                 <div>
@@ -24,7 +24,7 @@
                 <div class="navbar-end">
                 <div class="flex justify-between">
                     <img src="./assets/coin.png" alt="" srcset="">
-                    <p id="main-balance" class="ml-2">5500</p>
+                    <p id="main-balance" class="ml-2">120000</p>
                 </div>
                 </div>
               </div>
@@ -48,7 +48,7 @@
                 <div class="w-1/2 flex flex-col gap-1">
                 <button id="noakhali-show-balance" class="flex gap-1">
                     <img src="./assets/coin.png" alt="" srcset="">
-                    <div id="noakhali-donation-balance">250</div>
+                    <div id="noakhali-donation-balance">1500</div>
                     <div>BDT</div>
                 </button>
                 <h1 class="text-2xl font-bold">Donate for Flood at Noakhali, Bangladesh</h1>
@@ -67,7 +67,7 @@
                 <div class="w-1/2 flex flex-col gap-1">
                 <button id="feni" class="flex gap-1">
                     <img src="./assets/coin.png" alt="" srcset="">
-                    <div id="feni-donation-balance">00</div>
+                    <div id="feni-donation-balance">1200</div>
                     <div>BDT</div>
                 </button>
                 <h1 class="text-2xl font-bold">Donate for Flood Relief in Feni,Bangladesh</h1>
@@ -85,7 +85,7 @@
                 <div class="w-1/2 flex flex-col gap-1">
                 <button id="qouta-show-balance" class="flex gap-1">
                     <img src="./assets/coin.png" alt="" srcset="">
-                    <div id="qouta-donation-balance">00</div>
+                    <div id="qouta-donation-balance">2000</div>
                     <div>BDT</div>
                 </button>
                 <h1 class="text-2xl font-bold">Aid for Injured in the Quota Movement</h1>
@@ -96,12 +96,13 @@
                 </div>
             </div>
         </div>
-
         </section>
 
         <!-- History -->
-        <section id="history-section" class="hidden">
-            <p>this is transanction history.</p>
+        <section id="history-section" class="hidden flex-col justify-center">
+            <div id="history-items">
+                <!-- <p class="text-xl">this is transanction history.</p> -->
+            </div>
         </section>
     </main>
 
