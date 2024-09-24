@@ -1,4 +1,4 @@
-//shared function to add money by id
+//Reusable Function 1: to add money by id
 //id=input ammount of each section
 function addMoneyFromSections(id){
     const inputValue = document.getElementById(id).value;
@@ -7,7 +7,7 @@ function addMoneyFromSections(id){
     return donationValue;
 }
 
-//shared function to show this money in section balance
+//Reusable Function 2: to show this money in section balance
 //id = show section balance in the top of the texts
 function SectionBalance(id){
     const gettingPrevSectionBalance = document.getElementById(id).innerText;
