@@ -42,7 +42,9 @@ const sectionTotalDonationNoakhali = document.getElementById('noakhali-donate-no
     const div = document.createElement('div');
     const date = new Date();
     div.innerHTML = `
-    <p class="text-xl m-2 border-2 border-neutral-500 rounded px-3"> ${noakhaliNewDonation} was Donated at ${date} in the Noakhali Flood Donation.</p>
+    <p class="text-xl m-2 border-2 border-neutral-500 rounded p-3"> <span class="text-2xl font-bold">${noakhaliNewDonation} Taka is Donated for famine-2024 at Noakhali, Bangladesh.</span>
+    <br>
+    Date: ${date}</p>
     `
     document.getElementById('history-items').appendChild(div);
     })
@@ -68,7 +70,9 @@ const sectionTotalDonationFeni = document.getElementById('feni-donate-now-btn').
     const div = document.createElement('div');
     const date = new Date();
     div.innerHTML = `
-    <p class="text-xl m-2 border-2 border-neutral-500 rounded px-3"> ${feniNewDonation} was Donated at ${date} in the Feni Flood Donation.</p>
+    <p class="text-xl m-2 border-2 border-neutral-500 rounded p-3"> <span class="text-2xl font-bold">${feniNewDonation} Taka is Donated for flood releif at Feni, Bangladesh.</span>
+    <br>
+    Date: ${date}</p>
     `
     document.getElementById('history-items').appendChild(div);
     })
@@ -93,7 +97,11 @@ const sectionTotalDonationQouta = document.getElementById('qouta-donate-now-btn'
     const div = document.createElement('div');
     const date = new Date();
     div.innerHTML = `
-    <p class="text-xl m-2 border-2 border-neutral-500 rounded px-3"> ${qoutaNewDonation} was Donated at ${date} for Injured in the Quota Movement.</p>
+    <p class="text-xl m-2 border-2 border-neutral-500 rounded p-3"> <span class="text-2xl font-bold">${qoutaNewDonation} Taka is Donated for Aid for Injured in the Quota Movement, Bangladesh.
+    </span>
+    <br>
+    Date: ${date}</p>
+
     `
     document.getElementById('history-items').appendChild(div);
     })
